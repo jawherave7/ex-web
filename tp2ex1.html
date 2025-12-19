@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <form action="">
+    <div class="group">
+    <label for="nom">nom</label>
+    <input type="text" name="" id="nom">
+    <small class="error"></small>
+    </div>
+    <div>
+        <label for="prenom">prenom</label>
+        <input type="text" name="" id="prenom">
+        <small class="error"></small>
+    </div>
+    <div>
+        <label for="sexe">sexe</label>
+        <input type="radio" name="sexe" id="homme"> H
+        <input type="radio" name="sexe" id="femme"> F
+        <small class="error"></small>
+    </div>
+    <div>
+        <input type="date" name="" id="date">
+        <small class="error"></small>
+    </div>
+    <div>
+        <label for="emploi">sans emploi</label>
+        <input type="checkbox" name="" id="emploi">
+         <small class="error"></small>
+    </div>
+    <div>
+        <label for="lieu"> lieu de naissance</label>
+        <select name="" id="lieu">
+            <option value="">choisir lieu</option>
+            <option value="manzel_bourguiba">manzel bourguiba</option>
+            <option value="bizert">bizert</option>
+            <option value="tunisia">tunisia</option>
+        </select>
+          <small class="error"></small>
+    </div>
+     <button type="button"  onclick="afficher()">phrase</button>
+     <br>
+     <textarea name="" id="text"></textarea>
+    <script src="ave.js"></script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+    <th>Exemple</th>
+    <th>resultat</th>
+    </tr>
+    <td>
+        <span>
+        <div>
+            <label for="">taper x</label>
+            <input type="number" id="x">
+            <small class="error"></small>
+        </div>
+        <div>
+            <label for="">taper y</label>
+            <input type="number" id="y">
+            <small class="error"></small>
+        </div>
+        <div>
+             <label for="">operation</label>
+        <select name="" id="op">
+            <option value="">choisire un operation</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <small class="error"></small>
+        </div>
+        <button  id="calculer" onclick="calculer()">calculer</button>
+        <button  id="anuller" onclick="annuler()">annuler</button>
+    </td>
+    <td>
+    <span id="resultat"></span>
+    </td>
+</table>
+    <script src="ex2.js"></script>
+
+</body>
+</html>
